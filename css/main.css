@@ -1,0 +1,153 @@
+html {
+  box-sizing: border-box;
+  margin: auto;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  font-size: .875rem;
+}
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+}
+
+h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+dt {
+  font-style: italic;
+  line-height: 1.5;
+}
+
+dd {
+  margin: 0;
+  font-size: .95rem;
+  line-height: 1.5;
+}
+
+dl {
+  margin: 0;
+  margin-bottom: 1.5rem;
+}
+
+section {
+  display: block;
+  width: 100%;
+  float: left;
+  clear: left;
+  padding: .75rem;
+  background-color: #f2f2f2;
+  text-align: left;
+  border-left-style: solid;
+  border-left-width: thin;
+  border-left-color: #333;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #333;
+  position: absolute;
+}
+
+.anderon {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  clear: left;
+  padding: .75rem;
+  background-color: #e2e2e2;
+  text-align: left;
+  border-left-style: solid;
+  border-left-width: thin;
+  border-left-color: #333;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #333;
+}
+
+.knights {
+  display: inline-block;
+  width: 25%;
+  float: left;
+  padding: .75rem;
+  background-color: #ccc;
+  text-align: left;
+  border-left-style: solid;
+  border-left-width: thin;
+  border-left-color: #333;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #333;
+  height: 100%;
+}
+
+.ships {
+  background-color: #999;
+  display: inline-block;
+  width: 25%;
+  float: right;
+  margin: 0;
+  padding: .75rem;
+  text-align: left;
+  border-left-style: solid;
+  border-left-width: thin;
+  border-left-color: #333;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #333;
+}
+
+.dragon {
+  background-color: #aaa;
+  display: inline-block;
+  width: 25%;
+  margin: auto;
+  padding: .75rem;
+  text-align: left;
+  border-left-style: solid;
+  border-left-width: thin;
+  border-left-color: #333;
+  border-right-style: solid;
+  border-right-width: thin;
+  border-right-color: #333;
+}
+
+.btn {
+  border-radius: 8px;
+  background-color: #333;
+  display: inline-block;
+  padding: .5em;
+  padding-left: .75em;
+  padding-right: .75em;
+  font-size: .875rem;
+  border-width: .3px;
+  color: #fff;
+}
+
+img {
+  margin: auto;
+  width: 100px;
+  display: block;
+}
+
+a {
+  color: #f2f2f2;
+  text-decoration: none;
+}
+
+.btn:hover {
+  color: #333;
+}
+
+.btn-small {
+
+}
